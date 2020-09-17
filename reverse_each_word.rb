@@ -1,7 +1,7 @@
 require 'pry'
 
-def reverse_each_word(sentence)
-  sentence.each do |word|
+def reverse_each_word(string)
+  string.each do |word|
     word.reverse
   end
 end
