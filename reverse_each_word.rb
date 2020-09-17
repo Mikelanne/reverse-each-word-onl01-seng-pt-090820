@@ -10,9 +10,10 @@ require 'pry'
 #end
 
 def reverse_each_word(string)
-  binding.pry 
-  #split_string = string.split
-  #split_string.collect do |word|
- # word.reverse
- # end
+  reversed_words = []
+  split_string = string.split
+  split_string.collect do |word|
+  reversed_words << word.reverse
+ end
+ reversed_words.join(" ")
 end
